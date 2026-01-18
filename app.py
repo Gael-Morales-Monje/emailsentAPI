@@ -15,7 +15,18 @@ app = Flask(__name__)
 CORS(app)
 
 list = [
-
+    {
+        "email": "gael@outlook.com",
+        "clave": "123456789",
+        "recipient": "gael@outlook.com",
+        "body": "Hola23"
+    },
+    {
+        "email": "gael@outlook.com",
+        "clave": "123456789",
+        "recipient": "gael@outlook.com",
+        "body": "H323ola"
+    }
 ]
 
 
